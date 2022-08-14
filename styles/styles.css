@@ -1,0 +1,196 @@
+:root{
+    --balance-bg-color: #2a2239;
+    --input-bg-color: #3e384e;
+    --text-color: #d9f7eb;
+}
+@font-face {
+    font-family: Avenir;
+    src: url(../files/fonts/AvenirLTStd-Book.ttf);
+}
+html{
+    font-family: Avenir;
+    font-size:  62.5%;
+    background-color: #1e122f;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+}
+
+.container{
+    width: auto;
+    height: auto;
+}
+.balanceBig{
+    margin-top: 5rem;
+    width: 30rem;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 1rem;
+    color: var(--text-color);
+    background: var(--balance-bg-color);
+    
+    font-size: 2rem;
+}
+
+.balanceType{
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.balance{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+
+    font-size: 5rem;
+    font-weight: 600;
+}
+.balanceMonth{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.balanceSmall{
+    margin-top: 3rem;
+    width: 30rem;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 1rem;
+    color: var(--text-color);
+    background: var(--balance-bg-color);
+    
+    font-size: 1.5rem;
+}
+.balanceTypeSmall{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+.balanceS{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    margin-right: 2rem;
+
+    font-size: 3rem;
+}
+
+.balanceSpan{
+    align-self: center;
+    margin-left: 10rem;
+}
+.balanceMonthSmall{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    margin-right: 6rem;
+    margin-bottom: 1rem;
+}
+.walletIcon{
+    border-radius: 1rem;
+    width: 5rem;
+    height: 5rem;
+    
+    margin-left: 2rem;
+
+}
+.balanceSpan2{
+    align-self: center;
+    margin-right: 10rem;
+}
+.walletIcon2{
+    border-radius: 1rem;
+    width: 5rem;
+    height: 5rem;
+    
+    margin-right: 0rem;
+
+}
+
+.balanceTypeSmallRight{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.balanceSmallRight{
+flex-direction: row-reverse;
+}
+.balanceMonthSmallRight{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+.inputPay{
+    margin-top: 6rem;
+    width: 12.5rem;
+    height: auto;
+    
+    border: none;
+    border-radius: .5rem;
+    color: var(--text-color);
+    background-color: var(--input-bg-color);
+
+
+    font-family: Avenir;
+    font-weight: 600;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.inputPayRight{
+    margin-left: 3.75rem;
+}
+.payDiv{
+    display: flex;
+    width: auto;
+}
+.pay{
+    margin-top: 2.5rem;
+    margin-left: 1.5rem;
+    width: 10rem;
+    height: auto;
+    
+    border: none;
+    border-radius: .5rem;
+    color: var(--text-color);
+    background: linear-gradient(200deg, #57D430,#31652A);
+
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.payRight{
+    margin-left: 7rem;
+}
