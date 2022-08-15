@@ -1,0 +1,25 @@
+{
+  "name": "walletapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CesarGBkR/WalletApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CesarGBkR/WalletApp/issues"
+  },
+  "homepage": "https://github.com/CesarGBkR/WalletApp#readme",
+  "dependencies": {
+    "@prisma/client": "^4.2.1",
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.10",
+    "prisma": "^4.2.1"
+  }
+}

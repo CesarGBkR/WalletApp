@@ -1,7 +1,7 @@
 :root{
     --balance-bg-color: #2a2239;
     --input-bg-color: #3e384e;
-    --text-color: #d9f7eb;
+    --text-color: #eaf7ef;
 }
 @font-face {
     font-family: Avenir;
@@ -185,7 +185,7 @@ input[type=number]::-webkit-outer-spin-button {
     border: none;
     border-radius: .5rem;
     color: var(--text-color);
-    background: linear-gradient(200deg, #57D430,#31652A);
+    background: linear-gradient(200deg, rgba(212,39,16,1) 0%, rgba(85,14,14,1) 100%);
 
     font-size: 2.5rem;
     font-weight: 600;
@@ -193,4 +193,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .payRight{
     margin-left: 7rem;
+    
+    background: linear-gradient(200deg, #57D430,#31652A);
+
 }
